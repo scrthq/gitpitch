@@ -43,18 +43,35 @@ During this training session, we're going to cover...
 
 There are a few layers to create when integrating a new application with OneLogin. Here is what's needed for a typical SAML build out...  
 
----
+@fa[arrow-down]
 
++++
+@title[AD Group]
 #### Active Directory group created to enable the application for members
 
----
+@fa[arrow-down]
+
++++
+@title[Connector]
 
 #### SAML connector built in OneLogin (aka SAML application)
 
----
+@fa[arrow-down]
+
++++
+@title[Role]
 
 #### Role built in OneLogin that gives role members access to the SAML connector (because applications aren't assigned directly to users)
 
----
+@fa[arrow-down]
+
++++
+@title[Mapping]
 
 #### Mapping built in OneLogin that assigns the new role to the AD group members (memberof contains `OneLogin-#{application}`)
+
+@fa[arrow-right]
+
+---
+
+@title[AD Group]
