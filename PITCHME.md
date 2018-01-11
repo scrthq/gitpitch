@@ -12,6 +12,6 @@
 
 ## Key Terms
 
-*SAML*: Security Assertion Markup Language  
-*IdP*: Identity Provider (in our case, OneLogin)  
-*SP*: Service Provider (application)  
+**_SAML_**: Security Assertion Markup Language  
+**_IdP_**: Identity Provider (in our case, OneLogin)  
+**_SP_**: Service Provider (application)  
