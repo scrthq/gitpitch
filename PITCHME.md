@@ -4,7 +4,7 @@
 
 ***
 
-#### Policies & Procedures
+#### <span class="mint">Policies & Procedures</span>
 
 <br>
 
@@ -335,4 +335,4 @@ OneLogin connectors are provided via Roles. Users receive connectors via assignm
 
 ***
 
-OneLogin mappings provide logic that assigns users to Roles based on AD Group membership.
+OneLogin mappings provide logic around assigning various items to users in OneLogin, i.e. Roles or custom attribute values.
