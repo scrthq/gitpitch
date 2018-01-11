@@ -23,6 +23,7 @@ During this training session, we're going to cover...
 * what goes into a typical SAML integration
 * deeper dive into SAML
 * troubleshooting tips and tricks
+* managing users in OneLogin
 
 <br>
 
