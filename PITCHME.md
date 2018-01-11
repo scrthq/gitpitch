@@ -62,7 +62,7 @@ There are a few layers to create when integrating a new application with OneLogi
 
 +++
 @title[AD Group]
-#### AD Group
+#### <span class="mint">AD Group</span>
 
 ***
 
@@ -75,7 +75,7 @@ This should be the first item you create. Membership in this group will provide 
 +++
 @title[Connector]
 
-#### SAML Connector
+#### <span class="mint">SAML Connector</span>
 
 ***
 
@@ -88,7 +88,7 @@ This is the actual application in OneLogin.
 +++
 @title[Role]
 
-#### OneLogin Role
+#### <span class="mint">OneLogin Role</span>
 
 ***
 
@@ -101,7 +101,7 @@ Roles include one or more connectors. Users in a role receive the connectors inc
 +++
 @title[Mapping]
 
-#### OneLogin Mapping  
+#### <span class="mint">OneLogin Mapping  </span>
 
 ***
 
@@ -132,7 +132,7 @@ A closer look at what a normal application integration looks like.
 
 +++
 @title[Existing Connectors - 1]
-#### Existing Connectors
+#### <span class="mint">Existing Connectors</span>
 
 ***
 
@@ -145,7 +145,7 @@ Some vendors may have a pre-built SAML connector available in OneLogin's Applica
 
 +++
 @title[Existing Connectors - 2]
-#### Existing Connectors
+#### <span class="mint">Existing Connectors</span>
 
 ***
 
@@ -157,7 +157,7 @@ You can check the connector catalog by clicking the blue New App button from you
 
 +++
 @title[Existing Connectors - Note]
-#### Existing Connectors
+#### <span class="mint">Existing Connectors</span>
 
 ***
 
@@ -169,7 +169,7 @@ You can check the connector catalog by clicking the blue New App button from you
 
 +++
 @title[Developer Intro - 1]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -183,7 +183,7 @@ Items to cover during this introductory call/email chain...
 
 +++
 @title[Developer Intro - 2]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -195,7 +195,7 @@ Is their application able to handle SAML?
 
 +++
 @title[Developer Intro - 3]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -207,7 +207,7 @@ Is their a pre-built SAML connector already available in OneLogin's app catalog?
 
 +++
 @title[Developer Intro - 4]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -219,7 +219,7 @@ Do they have an implementation guide handy or know exactly what we need to provi
 
 +++
 @title[Developer Intro - 5]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -231,7 +231,7 @@ What information do we need to provide them, i.e. SAML SSO URL's, IdP certificat
 
 +++
 @title[Developer Intro - 6]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -243,7 +243,7 @@ What is the SAML assertion consumer URL (ACS URL) for the application that we wi
 
 +++
 @title[Developer Intro - 7]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -257,7 +257,7 @@ If it's just the email address (default NameId), then there shouldn't be any cha
 
 +++
 @title[Developer Intro - 8]
-#### Developer Intro
+#### <span class="mint">Developer Intro</span>
 
 ***
 
@@ -269,7 +269,7 @@ Does the application expect anything like Role ID's to be passed in the SAML ass
 
 +++
 @title[AD Groups - 1]
-#### AD Groups
+#### <span class="mint">AD Groups</span>
 
 ***
 
@@ -281,7 +281,7 @@ A common pattern is to build out AD Groups that correlate to each SAML applicati
 
 +++
 @title[AD Groups - 2]
-#### AD Groups
+#### <span class="mint">AD Groups</span>
 
 ***
 
@@ -295,7 +295,7 @@ AWS OneLogin groups are a good example of this.
 
 +++
 @title[SAML Connector - 1]
-#### SAML Connector
+#### <span class="mint">SAML Connector</span>
 
 ***
 
@@ -307,7 +307,7 @@ If there is not an existing pre-built SAML connector for the application, you wi
 
 +++
 @title[SAML Connector - 2]
-#### SAML Connector
+#### <span class="mint">SAML Connector</span>
 
 ***
 
@@ -319,7 +319,7 @@ Go to the OneLogin connector catalog and search for **SAML Test**. Choose `SAML 
 
 +++
 @title[OneLogin Role]
-#### OneLogin Role
+#### <span class="mint">OneLogin Role</span>
 
 ***
 
@@ -331,7 +331,7 @@ OneLogin connectors are provided via Roles. Users receive connectors via assignm
 
 +++
 @title[OneLogin Mapping]
-#### OneLogin Mapping
+#### <span class="mint">OneLogin Mapping</span>
 
 ***
 
