@@ -6,6 +6,10 @@
 
 #### Policies & Procedures
 
+<br>
+
+@fa[arrow-right]
+
 ---
 
 @title[Objectives]
@@ -20,6 +24,10 @@ During this training session, we're going to cover...
 * deeper dive into SAML
 * troubleshooting tips and tricks
 
+<br>
+
+@fa[arrow-right]
+
 ---
 
 @title[Key Terms]
@@ -33,6 +41,10 @@ During this training session, we're going to cover...
 **_SP_**: Service Provider (application)  
 **_Connector_**: Another term for application in OneLogin
 **_Form-Based Auth_**: Forms authentication (not SAML authentication)
+
+<br>
+
+@fa[arrow-right]
 
 ---
 
@@ -253,7 +265,7 @@ Does the application expect anything like Role ID's to be passed in the SAML ass
 
 <br>
 
-@fa[arrow-down]
+@fa[arrow-right]
 
 ---
 @title[AD Groups - 1]
@@ -279,7 +291,7 @@ AWS OneLogin groups are a good example of this.
 
 <br>
 
-@fa[arrow-down]
+@fa[arrow-right]
 
 ---
 @title[SAML Connector - 1]
@@ -303,7 +315,7 @@ Go to the OneLogin connector catalog and search for **SAML Test**. Choose `SAML 
 
 <br>
 
-@fa[arrow-down]
+@fa[arrow-right]
 
 ---
 @title[OneLogin Role]
@@ -315,7 +327,7 @@ OneLogin connectors are provided via Roles. Users receive connectors via assignm
 
 <br>
 
-@fa[arrow-down]
+@fa[arrow-right]
 
 ---
 @title[OneLogin Mapping]
