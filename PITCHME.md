@@ -120,11 +120,11 @@ A closer look at what a normal application integration looks like.
 
 +++
 @title[Existing Connectors - 1]
-#### Check for existing connectors
+#### Existing Connectors
 
 ***
 
-Some vendors may have a pre-built SAML connector available in OneLogin's Application catalog. Once a new SSO setup request is received for "NewApp", it's a good idea to check for existing connectors first in OneLogin.
+Some vendors may have a pre-built SAML connector available in OneLogin's Application catalog. Once a new SSO setup request is received for "NewApp", it's a good idea to Existing Connectors first in OneLogin.
 
 
 <br>
@@ -133,7 +133,7 @@ Some vendors may have a pre-built SAML connector available in OneLogin's Applica
 
 +++
 @title[Existing Connectors - 2]
-#### Check for existing connectors
+#### Existing Connectors
 
 ***
 
@@ -145,7 +145,7 @@ You can check the connector catalog by clicking the blue New App button from you
 
 +++
 @title[Existing Connectors - Note]
-#### Check for existing connectors
+#### Existing Connectors
 
 ***
 
@@ -257,17 +257,70 @@ Does the application expect anything like Role ID's to be passed in the SAML ass
 
 ---
 @title[AD Groups - 1]
-#### Active Directory groups
+#### AD Groups
 
 ***
 
-At PennyMac, we typically build out AD Groups that correlate to each SAML application environment and/or role. The standard naming convention is `OneLogin-#{application}#{role}#{environment}`, i.e. `OneLogin-AWSDev_Developers` or `OneLogin-Blackline_Prd`. If you are building a SAML connector for 4 environments that have 4 roles for each environment, the current model is to build 16 groups out (one for each unique account+role combo). AWS OneLogin groups are a good example of this.
-
-
+A common pattern is to build out AD Groups that correlate to each SAML application environment and/or role, i.e. `OneLogin-AWSDev_Developers` or `OneLogin-Blackline_Prd`. 
 
 <br>
 
 @fa[arrow-down]
 
 +++
-### OneLogin SAML connector/application
+@title[AD Groups - 2]
+#### AD Groups
+
+***
+
+If you are building a SAML connector for 4 environments that have 4 roles for each environment, the current model is to build 16 groups out (one for each unique account+role combo).
+
+AWS OneLogin groups are a good example of this.
+
+<br>
+
+@fa[arrow-down]
+
+---
+@title[SAML Connector - 1]
+#### SAML Connector
+
+***
+
+If there is not an existing pre-built SAML connector for the application, you will need to build out a custom connector.
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[SAML Connector - 2]
+#### SAML Connector
+
+***
+
+Go to the OneLogin connector catalog and search for **SAML Test**. Choose `SAML Test Connector (IdP)`.
+
+<br>
+
+@fa[arrow-down]
+
+---
+@title[OneLogin Role]
+#### OneLogin Role
+
+***
+
+OneLogin connectors are provided via Roles. Users receive connectors via assignment to specific roles.
+
+<br>
+
+@fa[arrow-down]
+
+---
+@title[OneLogin Mapping]
+#### OneLogin Mapping
+
+***
+
+OneLogin mappings provide logic that assigns users to Roles based on AD Group membership.
