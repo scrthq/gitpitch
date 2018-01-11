@@ -12,11 +12,13 @@
 
 ## Objectives
 
-During this training session, we're going to cover the following:  
-* Key terms used when talking about SAML SSO
-* What goes into a typical SAML integration
-* Deeper dive into SAML
-* Troubleshooting tips and tricks
+***
+
+During this training session, we're going to cover...  
+* key terms used when talking about SAML SSO
+* what goes into a typical SAML integration
+* deeper dive into SAML
+* troubleshooting tips and tricks
 
 ---
 
