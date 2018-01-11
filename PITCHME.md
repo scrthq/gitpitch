@@ -32,3 +32,29 @@ During this training session, we're going to cover...
 **_IdP_**: Identity Provider (in our case, OneLogin)  
 **_SP_**: Service Provider (application)  
 **_Connector_**: Another term for application in OneLogin
+
+---
+
+@title[High-Level Overview]
+
+## <span class="gold">High-Level</span> Overview
+
+***
+
+There are a few layers to create when integrating a new application with OneLogin. Here is what's needed for a typical SAML build out...  
+
+---
+
+#### Active Directory group created to enable the application for members
+
+---
+
+#### SAML connector built in OneLogin (aka SAML application)
+
+---
+
+#### Role built in OneLogin that gives role members access to the SAML connector (because applications aren't assigned directly to users)
+
+---
+
+#### Mapping built in OneLogin that assigns the new role to the AD group members (memberof contains `OneLogin-#{application}`)
