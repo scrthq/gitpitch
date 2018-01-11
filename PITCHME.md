@@ -124,7 +124,20 @@ A closer look at what a normal application integration looks like.
 
 ***
 
-Some vendors may have a pre-built SAML connector available in OneLogin's Application catalog. Once a new SSO setup request is received for "NewApp", it's a good idea to check for existing connectors first in OneLogin. You can check the connector catalog by clicking the blue New App button from your OneLogin home page or by going to Apps > Add Apps. Search for the application name in the request.
+Some vendors may have a pre-built SAML connector available in OneLogin's Application catalog. Once a new SSO setup request is received for "NewApp", it's a good idea to check for existing connectors first in OneLogin.
+
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Check for existing connectors - 2]
+#### Check for existing connectors
+
+***
+
+You can check the connector catalog by clicking the blue New App button from your OneLogin home page or by going to Apps > Add Apps. Search for the application name in the request.
 
 <br>
 
