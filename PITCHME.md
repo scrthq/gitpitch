@@ -92,7 +92,15 @@ Roles include one or more connectors. Users in a role receive the connectors inc
 
 ***
 
-Mappings allow you to create logic between the AD group and OneLogin role, i.e. "if User's `MemberOf` contains `AD-Group-Name`, assign user to role `Role-Name`"
+Mappings allow you to create logic between the AD group and OneLogin role, i.e. 
+```
+  if User's 
+    `MemberOf` 
+  contains 
+    `AD-Group-Name`
+  assign user to role 
+    `Role-Name`
+```
 
 <br>
 
