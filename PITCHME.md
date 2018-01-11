@@ -119,7 +119,7 @@ A closer look at what a normal application integration looks like.
 @fa[arrow-down]
 
 +++
-@title[Check for existing connectors - 1]
+@title[Existing Connectors - 1]
 #### Check for existing connectors
 
 ***
@@ -132,7 +132,7 @@ Some vendors may have a pre-built SAML connector available in OneLogin's Applica
 @fa[arrow-down]
 
 +++
-@title[Check for existing connectors - 2]
+@title[Existing Connectors - 2]
 #### Check for existing connectors
 
 ***
@@ -144,7 +144,7 @@ You can check the connector catalog by clicking the blue New App button from you
 @fa[arrow-down]
 
 +++
-@title[Check for existing connectors - Note]
+@title[Existing Connectors - Note]
 #### Check for existing connectors
 
 ***
@@ -156,27 +156,110 @@ You can check the connector catalog by clicking the blue New App button from you
 @fa[arrow-down]
 
 +++
-### Intro call or email chain with the application vendor or developer
+@title[Developer Intro - 1]
+#### Developer Intro
 
-This is a good starting point to identify what's needed to integrate OneLogin with their application.
+***
 
-Items to cover:
-  * Is their application able to handle SAML?
-  * Is their a pre-built SAML connector already available in OneLogin's app catalog? (this typically makes setup much quicker)
-  * Do they have an implementation guide handy or know exactly what we need to provide them?
-  * What information do we need to provide them, i.e. SAML SSO URL's, IdP certificate, or connector metadata file?
-  * What is the SAML assertion consumer URL (ACS URL) for the application that we will need to send SAML assertions to?
-  * What user attributes is the application expecting us to send in the SAML assertion; if it's just the email address (default NameId), then there shouldn't be any changes to the default connector attributes needed.
-  * Does the application expect anything like Role ID's to be passed in the SAML assertion as well? (this would be used for something similar to how roles are assigned when authenticating to our AWS accounts, for example)
+After checking for existing applications, it's time for a follow-up with the vendor or application developer.
 
-
+Items to cover during this introductory call/email chain...
 
 <br>
 
 @fa[arrow-down]
 
 +++
-### Active Directory groups
+@title[Developer Intro - 2]
+#### Developer Intro
+
+***
+
+Is their application able to handle SAML?
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Developer Intro - 3]
+#### Developer Intro
+
+***
+
+Is their a pre-built SAML connector already available in OneLogin's app catalog? (this typically makes setup much quicker)
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Developer Intro - 4]
+#### Developer Intro
+
+***
+
+Do they have an implementation guide handy or know exactly what we need to provide them?
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Developer Intro - 5]
+#### Developer Intro
+
+***
+
+What information do we need to provide them, i.e. SAML SSO URL's, IdP certificate, or connector metadata file?
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Developer Intro - 6]
+#### Developer Intro
+
+***
+
+What is the SAML assertion consumer URL (ACS URL) for the application that we will need to send SAML assertions to?
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Developer Intro - 7]
+#### Developer Intro
+
+***
+
+What user attributes is the application expecting us to send in the SAML assertion? 
+
+If it's just the email address (default NameId), then there shouldn't be any changes to the default connector attributes needed.
+
+<br>
+
+@fa[arrow-down]
+
++++
+@title[Developer Intro - 8]
+#### Developer Intro
+
+***
+
+Does the application expect anything like Role ID's to be passed in the SAML assertion as well? (this would be used for something similar to how roles are assigned when authenticating to our AWS accounts, for example)
+
+<br>
+
+@fa[arrow-down]
+
+---
+@title[AD Groups - 1]
+#### Active Directory groups
+
+***
 
 At PennyMac, we typically build out AD Groups that correlate to each SAML application environment and/or role. The standard naming convention is `OneLogin-#{application}#{role}#{environment}`, i.e. `OneLogin-AWSDev_Developers` or `OneLogin-Blackline_Prd`. If you are building a SAML connector for 4 environments that have 4 roles for each environment, the current model is to build 16 groups out (one for each unique account+role combo). AWS OneLogin groups are a good example of this.
 
