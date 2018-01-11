@@ -1,6 +1,6 @@
 @title[Introduction]
 
-## OneLogin <span class="gold">Administration</span>
+## <span class="gold">OneLogin</span> Administration
 
 ***
 
@@ -10,7 +10,7 @@
 
 @title[Objectives]
 
-## Objectives
+## <span class="gold">Objectives</span>
 
 ***
 
@@ -24,7 +24,7 @@ During this training session, we're going to cover...
 
 @title[Key Terms]
 
-## Key Terms
+## <span class="gold">Key</span> Terms
 
 ***
 
