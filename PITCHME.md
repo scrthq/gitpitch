@@ -1,6 +1,6 @@
 @title[Introduction]
 
-# OneLogin <span class="gold">Administration</span>
+## OneLogin <span class="gold">Administration</span>
 
 #### Policies & Procedures
 
