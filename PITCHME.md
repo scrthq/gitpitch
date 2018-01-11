@@ -119,16 +119,24 @@ A closer look at what a normal application integration looks like.
 @fa[arrow-down]
 
 +++
-@title[Check for existing connectors]
+@title[Check for existing connectors - 1]
 #### Check for existing connectors
 
 ***
 
 Some vendors may have a pre-built SAML connector available in OneLogin's Application catalog. Once a new SSO setup request is received for "NewApp", it's a good idea to check for existing connectors first in OneLogin. You can check the connector catalog by clicking the blue New App button from your OneLogin home page or by going to Apps > Add Apps. Search for the application name in the request.
 
-**Note: Some organizations may not support Forms-Based Auth. If this is the case, you must find a _SAML 2.0_ connector (some applications may support SAML but only have the Forms-Based connector available pre-built.**
+<br>
 
+@fa[arrow-down]
 
++++
+@title[Check for existing connectors - Note]
+#### Check for existing connectors
+
+***
+
+<span class="gold"><b>Some organizations may not support Forms-Based Auth. If this is the case, you must find a _SAML 2.0_ connector (some applications may support SAML but only have the Forms-Based connector available pre-built.</span></b>
 
 <br>
 
