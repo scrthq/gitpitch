@@ -265,9 +265,9 @@ Does the application expect anything like Role ID's to be passed in the SAML ass
 
 <br>
 
-@fa[arrow-right]
+@fa[arrow-down]
 
----
++++
 @title[AD Groups - 1]
 #### AD Groups
 
@@ -291,9 +291,9 @@ AWS OneLogin groups are a good example of this.
 
 <br>
 
-@fa[arrow-right]
+@fa[arrow-down]
 
----
++++
 @title[SAML Connector - 1]
 #### SAML Connector
 
@@ -315,9 +315,9 @@ Go to the OneLogin connector catalog and search for **SAML Test**. Choose `SAML 
 
 <br>
 
-@fa[arrow-right]
+@fa[arrow-down]
 
----
++++
 @title[OneLogin Role]
 #### OneLogin Role
 
@@ -327,9 +327,9 @@ OneLogin connectors are provided via Roles. Users receive connectors via assignm
 
 <br>
 
-@fa[arrow-right]
+@fa[arrow-down]
 
----
++++
 @title[OneLogin Mapping]
 #### OneLogin Mapping
 
