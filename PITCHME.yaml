@@ -2,6 +2,6 @@ theme : night
 theme-override : assets/css/PITCHME.css
 background : assets/images/wallpaper.jpg
 logo : assets/images/logo.png
-transition : slide
+transition : fade
 published : true
 highlight : monokai
